@@ -1,0 +1,11 @@
+Apagamos nuestra interfaz de red ejecutando el siguiente comando en la terminal:
+
+    sudo ifconfig <nombre de la interfaz> down 
+
+Seguidamente cambiamos el nombre de la interfaz de eth0 a peth0 ejecutando el siguiente comando en la terminal:
+
+    sudo ip link set <nombre de la interfaz> name <nuevo nombre de interfaz> 
+
+Finalmente levantamos la nueva interfaz de red peth0 ejecutando el siguiente comando:
+
+    sudo ifconfig <nombre nuevo de la interfaz> up 

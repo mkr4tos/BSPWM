@@ -1,0 +1,3 @@
+Para actualizar la capacidad del disco duro ejecutar el siguiente comando:
+
+sudo btrfs filesystem resize max /
